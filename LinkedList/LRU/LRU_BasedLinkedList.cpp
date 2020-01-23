@@ -58,7 +58,7 @@ bool SList::find_elem(DataType x) {
 }
 
 void SList::delete_elem_at_end() {
-	SNode *ptr;
+	SNode *ptr, *temp;
 
 	ptr = head;
 	while (ptr->next != NULL && ptr->next->next != NULL) {
