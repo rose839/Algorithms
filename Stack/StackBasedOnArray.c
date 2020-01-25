@@ -44,7 +44,7 @@ void ArrayStack<T>::push(T data) {
 	}
 }
 
-template<typename T> 
+template<typename T>
 T ArrayStack<T>::pop(){
     this->elem_count --;
     T temp = this->array[this->elem_count];
