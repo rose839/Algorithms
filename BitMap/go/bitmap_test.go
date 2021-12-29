@@ -3,7 +3,7 @@ package bigmap
 import (
 	"testing"
 
-	"gotest.tools/v3/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestBitMap(t *testing.T) {
